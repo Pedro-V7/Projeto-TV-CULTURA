@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style> 
+            body{
+                background-color: #1C3C61;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100vw;
+                height: 100vh;
+                overflow-x: hidden;
+                overflow-y: hidden;
+            }
+            #centro{
+                display:flex;
+                background-color: white;
+                width: 400px;
+                height: 400px;
+                border-radius: 20px;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap:10px;
+            }
+            img{
+                width: 500px;
+                height: 500px;
+                margin-left: -210px;
+            }
+            h1{
+                text-align: center;
+                font-family: sans-serif;
+                font-size: 30px;
+                margin-top: -21px;
+                padding-bottom: 12px;
+            }
+            input{
+                height: 35px;
+                width: 260px;
+                border-radius: 5px;
+                border-width: 1.5px;
+                border-color: #1C3C61;
+            }
+            label{
+                margin-left: -211px;
+                font-family: sans-serif;
+                font-weight: 600;
+            }
+            button{
+                width: 200px;
+                height: 35px;
+                border-radius: 10px;
+                border:none;
+                position: fixed;
+                margin-top: 305px;
+                background: #1C3C61;
+                color: white;
+                font-family: sans-serif;
+                font-weight: 600;
+                font-size: 23px;
+    
+            }
+            button:hover{
+                background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+                linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+                linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+            }
+      
+        </style>
+    </head>
+    <body>
+        <img src="https://yt3.googleusercontent.com/ytc/AIdro_lQZn1Gu7JCyHIkh8iqtsXC94DbwOpY0K1IOqsNPD5En4I=s900-c-k-c0x00ffffff-no-rj"><!-- comment -->
+        <form id="centro" action="LOGINZIN.jsp">
+            <h1> Bem Vindo de Volta </h1>
+            <label for="usuario">
+                Usuário: 
+            </label>
+            <input placeholder="Digite seu usuário" name="usuario" id="usuario"/>
+            <label for="senha">
+                Senha: 
+            </label>
+            <input placeholder="Digite sua Senha" name="senha" id="senha" type="password"/>
+            
+            <button type="submit">
+                Entrar
+            </button>
+        </form>
+    </body>
+</html>
